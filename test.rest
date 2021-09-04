@@ -1,0 +1,17 @@
+POST http://127.0.0.1:3000/register
+content-type: application/json
+
+{
+    "nombre": "Memo",
+    "email": "gmomar@gmail.com",
+    "password": "memo"
+}
+###
+
+POST http://127.0.0.1:3000/login
+content-type: application/json
+
+{
+    "email": "gmomar@gmail.com",
+    "password": "memo"
+}
